@@ -5,5 +5,5 @@ connectDB();
 console.log()
 
 app.listen(process.env.PORT,()=>{
-    console.log("server.js is running on http://localhost:4000");
+    console.log(`server is working on port:${process.env.PORT} in ${process.env.NODE_ENV} mode`);
 })
